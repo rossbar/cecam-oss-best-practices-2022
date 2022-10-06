@@ -1,0 +1,5 @@
+notebook
+jupytext
+sphinx
+myst-nb
+rise
