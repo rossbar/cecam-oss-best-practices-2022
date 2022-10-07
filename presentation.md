@@ -65,7 +65,7 @@ kernelspec:
 
 ### TODO: Rohit intro!
 
-+++ {"slideshow": {"slide_type": "subslide"}}
++++ {"slideshow": {"slide_type": "slide"}}
 
 # Framing the discussion
 
@@ -81,3 +81,25 @@ kernelspec:
 > - Providing sufficient **documentation**, both for developers interfacing
 >   libraries in a hosting code, and for users who require knowledge of the
 >   functionality provided.
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+# Software testing
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- **Unit tests** and **Integration testing** - both are important
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Evaluating the health of your test suite
+  * Coverage: necessary but not sufficient
+  * Unit test crosstalk
+    - Evaluate unit tests in random order (e.g. `pytest-randomly`)
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Testing dependencies
+  * Testing against development branch of major dependencies
+
+% - Property-based testing (e.g. `hypothesis`)?
