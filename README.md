@@ -40,6 +40,8 @@ In the notebook, you can enter/exit presentation mode with `alt+r`.
 In presentation mode, use `<space>` to navigate to the next slide and
 `<shift>+<space>` to move back.
 
+Note that the slides look best when in fullscreen mode (toggle with `<F11>`)
+
 [myst-nb]: https://myst-nb.readthedocs.io/en/latest/authoring/text-notebooks.html
 [RISE]: https://rise.readthedocs.io/en/stable/
 [sphinx]: https://www.sphinx-doc.org/en/master/
