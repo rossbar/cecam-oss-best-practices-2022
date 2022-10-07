@@ -77,14 +77,14 @@ kernelspec:
 +++ {"slideshow": {"slide_type": "fragment"}}
 
 - I write and think about Fortran as a hobby
-  * Am an active F2PY contributor within [NumPy][numpy]
+  * Am an active F2PY contributor within [NumPy][numpy_teams]
   * Also work with [LFortran][LF] and the [Fortran-Lang][FL] Community
 
 - Also [(Icelandic)HPC][IHPC] and C++ codes ([EON][eon], [d-SEAMS][dseams])
   * Relating molecular simulations across timescales
 
 
-[numpy]: https://numpy.org/teams/
+[numpy_teams]: https://numpy.org/teams/
 [LF]: https://lfortran.org/
 [IHPC]: https://ihpc.is/?page_id=559
 [eon]: http://theory.cm.utexas.edu/eon/

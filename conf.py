@@ -19,10 +19,14 @@ extensions = [
 
 templates_path = ['_templates']
 exclude_patterns = [
-    '_build', 'Thumbs.db', '.DS_Store', 'presentation.ipynb', 'cecam-env/*'
+    '_build', 'Thumbs.db', '.DS_Store',  # built-in ignores
+    'presentation.ipynb',  # Use the markdown-formatted notebook instead
+    'cecam-env/*',  # ignore virtualenv
+    'README.md'  # not part of website
 ]
 
-
+# Ignore myst warnings about non-consecutive headers
+suppress_warnings = ["myst.header"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
