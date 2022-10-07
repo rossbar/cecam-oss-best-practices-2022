@@ -24,7 +24,7 @@ kernelspec:
 
  - [Ross Barnowski](https://bids.berkeley.edu/people/ross-barnowski) `rossbar@berkeley.edu` | [@rossbar](https://github.com/rossbar) on GitHub
 
- - **TODO: Insert Rohit info here**
+ - [Rohit Goswami](https://rgoswami.me/about) `rog32@hi.is`, `rgoswami@quansight.com` | [@HaoZeke](https://github.com/HaoZeke) on GitHub
 
 [Centre Européen de Calcul Atomique et Moléculaire][cecam]
 
@@ -43,7 +43,7 @@ kernelspec:
 - Scientific software developer at the [Berkeley Institute for Data Science][BIDS]
   * My background is in radiation instrumentation
 
-% PETSc joke?
+% PETSc joke? Yes Please
 
 [BIDS]: https://bids.berkeley.edu/people/ross-barnowski
 
@@ -63,9 +63,33 @@ kernelspec:
 
 +++ {"slideshow": {"slide_type": "subslide"}}
 
-### TODO: Rohit intro!
+### Rohit intro!
 
-+++ {"slideshow": {"slide_type": "slide"}}
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Doctoral Researcher (Rannis funded) at the [Science Institute of the University of Iceland][SIUI]
+  * “Magnetic interactions of itinerant electrons modeled using Bayesian machine learning” with Prof. Hannes Jónsson as my supervisor and Prof. Birgir Hrafnkelsson as my co-supervisor
+- Software Engineer at [Quansight Labs][QL]
+
+[SIUI]: http://raunvisindastofnun.hi.is/the_science_institute
+[QL]: https://labs.quansight.org/team
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- I write and think about Fortran as a hobby
+  * Am an active F2PY contributor within [NumPy][numpy]
+  * Also work with [LFortran][LF] and the [Fortran-Lang][FL] Community
+
+- Also [(Icelandic)HPC][IHPC] and C++ codes ([EON][eon], [d-SEAMS][dseams])
+  * Relating molecular simulations across timescales
+
+
+[numpy]: https://numpy.org/teams/
+[LF]: https://lfortran.org/
+[IHPC]: https://ihpc.is/?page_id=559
+[eon]: http://theory.cm.utexas.edu/eon/
+[dseams]: https://dseams.info/
+[FL]: https://fortran-lang.org/
 
 # Framing the discussion
 
@@ -102,7 +126,8 @@ kernelspec:
 - Testing dependencies
   * Testing against development branch of major dependencies
 
-% - Property-based testing (e.g. `hypothesis`)?
+- Property-based testing (e.g. `hypothesis`)
+  * Testing subsets of possible user inputs at random
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
@@ -161,6 +186,7 @@ Restating the point from the [workshop intro][workshop-intro]
 
 - Reviewer bandwidth is almost always a bottleneck
   * Ross' opinion as a reviewer: multiple, smaller PRs >>> one big one!
+  * Formalizing commit guidelines clears history better than PR based organization (Rohit)
 
 +++ {"slideshow": {"slide_type": "fragment"}}
 
