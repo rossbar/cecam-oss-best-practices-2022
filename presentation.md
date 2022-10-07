@@ -103,3 +103,31 @@ kernelspec:
   * Testing against development branch of major dependencies
 
 % - Property-based testing (e.g. `hypothesis`)?
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+# Automated infrastructure
+
+Continuous integration and continuous deployment (CI/CD) systems
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Testing on different platforms, architectures, build-tool versions, etc.
+  * Specifying jobs with testing matrix strategy
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Triggering/scheduling jobs
+  * On opening PR/push, scheduled jobs (`cron`), on-demand workflows
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Inter-job & cross-workflow dependencies, concurrency
+  * Conditional testing (i.e. only run full test suite if smoke tests pass)
+  * Canceling currently-running jobs on new push
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Clouds on the horizon: what happens when CI services are no longer free for OSS projects?
+  * e.g. TravisCI
+  * Self-hosted CI services?
