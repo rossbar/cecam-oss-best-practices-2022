@@ -3,3 +3,4 @@ jupytext
 sphinx
 myst-nb
 rise
+sphinx-book-theme
