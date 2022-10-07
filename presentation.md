@@ -14,7 +14,7 @@ kernelspec:
 
 +++ {"slideshow": {"slide_type": "slide"}}
 
-# Panel Discussion: Tools and Best-Practices for Open-Source Scientific Software
+# Tools and Best-Practices for Open-Source Scientific Software
 
 <center>
 
@@ -42,8 +42,6 @@ kernelspec:
 
 - Scientific software developer at the [Berkeley Institute for Data Science][BIDS]
   * My background is in radiation instrumentation
-
-% PETSc joke? Yes Please
 
 [BIDS]: https://bids.berkeley.edu/people/ross-barnowski
 
@@ -95,6 +93,8 @@ kernelspec:
 
 +++ {"slideshow": {"slide_type": "fragment"}}
 
+From the [workshop introduction][essd] (emphasis ours):
+
 > - Ensuring that the library and codes are sufficiently **tested** and correct by
 >   providing tests that check functionality and correctness.
 > - **Automating infrastructure** for testing, building and addressing compiler
@@ -105,6 +105,8 @@ kernelspec:
 > - Providing sufficient **documentation**, both for developers interfacing
 >   libraries in a hosting code, and for users who require knowledge of the
 >   functionality provided.
+
+[essd]: https://www.cecam.org/workshop-details/1121
 
 +++ {"slideshow": {"slide_type": "slide"}}
 

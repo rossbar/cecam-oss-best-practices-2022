@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ESSD Tools and Best-Practices Panel Discussion'
+project = "Electronic Structure Software Development Workshop"
 copyright = '2022, Ross Barnowski, Rohit Goswami'
 author = 'Ross Barnowski, Rohit Goswami'
 
@@ -33,3 +33,4 @@ suppress_warnings = ["myst.header"]
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+html_title = project
