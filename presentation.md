@@ -131,3 +131,37 @@ Continuous integration and continuous deployment (CI/CD) systems
 - Clouds on the horizon: what happens when CI services are no longer free for OSS projects?
   * e.g. TravisCI
   * Self-hosted CI services?
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+# Adopting Software Best-Practices
+
+Restating the point from the [workshop intro][workshop-intro]
+
+> Allowing researchers with non-software backgrounds to employ best-practice
+> methods when developing code
+
+[workshop-intro]: https://www.cecam.org/workshop-details/1121
+
++++ {"slideshow": {"slide_type": "subslide"}}
+
+**This is what the collaborative, review-based OSS development model is all about!**
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Recognize the value each contributor brings with their unique skillset
+  * Even more pronounced for domain-specific software dev
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Don't let perfect be the enemy of good
+  * The value of follow-up PRs & issues
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Reviewer bandwidth is almost always a bottleneck
+  * Ross' opinion as a reviewer: multiple, smaller PRs >>> one big one!
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Being aware of the release cycle
