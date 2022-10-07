@@ -36,7 +36,7 @@ kernelspec:
 
 +++ {"slideshow": {"slide_type": "subslide"}}
 
-### I'm Ross
+### I'm Ross ([@rossbar](https://github.com/rossbar))
 
 +++ {"slideshow": {"slide_type": "fragment"}}
 
