@@ -165,3 +165,32 @@ Restating the point from the [workshop intro][workshop-intro]
 +++ {"slideshow": {"slide_type": "fragment"}}
 
 - Being aware of the release cycle
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+# Documentation
+
+Thinking about the different things a reader may be looking for.
+
++++ {"slideshow": {"slide_type": "subslide"}}
+
+<center>
+
+<img src="https://diataxis.fr/_images/diataxis.png" alt="Diataxis - a systematic framework for technical documentation authoring" width="1200">
+
+[*Diátaxis framework:*][diataxis_home] *a systematic way of thinking about how
+to organize documentation based on the various needs of users*
+
+</center>
+
+[diataxis_home]: https://diataxis.fr/
+
++++ {"slideshow": {"slide_type": "subslide"}}
+
+- Reference guide auto-generated from source code (e.g. sphinx autodoc)
+
+- Tutorials are **executable** and **regularly tested** to make sure they
+  reflect changes in the underlying software.
+
+- Example/thumbnail gallery (e.g. sphinx-gallery) is a nice format for how-tos
+  * Especially when visualization is involved
