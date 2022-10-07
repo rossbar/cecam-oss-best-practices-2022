@@ -71,13 +71,13 @@ kernelspec:
 
 +++ {"slideshow": {"slide_type": "fragment"}}
 
-> - Ensuring that the library and codes are sufficiently tested and correct by
+> - Ensuring that the library and codes are sufficiently **tested** and correct by
 >   providing tests that check functionality and correctness.
-> - Automating infrastructure for testing, building and addressing compiler
+> - **Automating infrastructure** for testing, building and addressing compiler
 >   compatibility issues.
-> - Allowing researchers with non-software backgrounds to employ best-practice
->   methods when developing code, such as for performance critical aspects as
+> - Allowing **researchers with non-software backgrounds to employ best-practice
+>   methods when developing code**, such as for performance critical aspects as
 >   well as for maintainability and interface issues.
-> - Providing sufficient documentation, both for developers interfacing
+> - Providing sufficient **documentation**, both for developers interfacing
 >   libraries in a hosting code, and for users who require knowledge of the
 >   functionality provided.
