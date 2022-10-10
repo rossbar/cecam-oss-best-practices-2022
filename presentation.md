@@ -222,3 +222,27 @@ to organize documentation based on the various needs of users*
 
 - Example/thumbnail gallery (e.g. sphinx-gallery) is a nice format for how-tos
   * Especially when visualization is involved
+
++++ {"slideshow": {"slide_type": "slide"}}
+
+# Centralized Governance?
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- **What** can / should ESL do to encourage community development?
+  + Addressing the gap between users / developers
+- **How** to encourage best practices?
+  + Community rewards / regular meetings
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Have a robust test-suite for common problems
+  * Matrix multiplications / benchmark calculations
+  * Provide installation environment / development environment targets
+    - For HPC and General users
+
++++ {"slideshow": {"slide_type": "fragment"}}
+
+- Have interface guidelines
+  + Be language agnostic
+- Possibly provide a nomenclature of functions (like LAPACK / BLAS)
