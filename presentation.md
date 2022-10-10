@@ -89,6 +89,8 @@ kernelspec:
 [dseams]: https://dseams.info/
 [FL]: https://fortran-lang.org/
 
++++ {"slideshow": {"slide_type": "slide"}}
+
 # Framing the discussion
 
 +++ {"slideshow": {"slide_type": "fragment"}}
@@ -127,6 +129,8 @@ From the [workshop introduction][essd] (emphasis ours):
 
 - Testing dependencies
   * Testing against development branch of major dependencies
+
++++ {"slideshow": {"slide_type": "fragment"}}
 
 - Property-based testing (e.g. `hypothesis`)
   * Testing subsets of possible user inputs at random
